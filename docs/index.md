@@ -1,20 +1,10 @@
----
-# https://vitepress.dev/reference/default-theme-home-page
-layout: home
+# 首页
 
-hero:
-  name: "凌云弈塔"
-  text: "云塔产品及API文档"
-  actions:
-    - theme: brand
-      text: 快速开始
-      link: /markdown-examples
-    - theme: alt
-      text: 官网
-      link: /api-examples
+凌云弈塔团队产品文档及API接口说明。
 
-features:
-  - title: CloudSentinel
-    details: 一款简单、轻量的服务器资源监控工具
----
-
+你可以通过以下方式与我们取得联系：
+- 邮箱：
+  - support@yuntower.com
+  - official@yuntower.com
+- QQ交流群：
+  - [597127891](https://qm.qq.com/q/ilhHCvAJlC)

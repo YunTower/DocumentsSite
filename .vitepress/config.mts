@@ -12,19 +12,21 @@ export default defineConfig({
       { text: "CloudSentinel", link: "/cloud-sentinel" },
     ],
     sidebar: {
-      "/cloud-sentinel/": [
+      "/": [
         {
-          text: "安装指南",
+          text: "首页",
+          link: "/",
+        },
+        {
+          text: "云塔账号通行证",
+          collapsed: false,
           items: [
-            {
-              text: "安装 Dashboard",
-              link: "/cloud-sentinel/install/dashboard",
-            },
-            { text: "安装 Agent", link: "/cloud-sentinel/install/agent" },
+            { text: "邮箱后缀", link: "/account/email-suffix" },
+            { text: "常见问题", link: "/account/qa" },
+            { text: "隐私政策", link: "/account/privacy" },
+            { text: "用户协议", link: "/account/tos" },
           ],
         },
-        { text: "常见问题", link: "/cloud-sentinel/changelog" },
-        { text: "更新日志", link: "/cloud-sentinel/changelog" },
       ],
     },
     footer: {
