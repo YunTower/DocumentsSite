@@ -7,10 +7,7 @@ export default defineConfig({
   description: "凌云弈塔产品使用说明与API文档",
   themeConfig: {
     // https://vitepress.dev/reference/default-theme-config
-    nav: [
-      { text: "首页", link: "/" },
-      { text: "CloudSentinel", link: "/cloud-sentinel" },
-    ],
+    nav: [{ text: "首页", link: "/" },{ text: "CloudSentinel", link: "/cloud-sentinel" }],
     sidebar: {
       "/": [
         {
@@ -27,8 +24,18 @@ export default defineConfig({
             { text: "用户协议", link: "/account/tos" },
           ],
         },
+        {
+          text: "云哨 CloudSentinel",
+          collapsed: false,
+          items: [
+            { text: "项目简介", link: "/cloud-sentinel" },
+            { text: "快速开始", link: "/cloud-sentinel/getting-started" },
+            { text: "变更记录", link: "/cloud-sentinel/changelog" },
+          ],
+        },
       ],
     },
+    socialLinks: [{ icon: "github", link: "https://github.com/YunTower" }],
     footer: {
       message: "Released under the MIT License.",
       copyright: "Copyright © 2025-present YunTower Team",
