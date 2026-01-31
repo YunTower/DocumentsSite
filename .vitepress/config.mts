@@ -20,6 +20,7 @@ export default defineConfig({
           items: [
             { text: "邮箱后缀", link: "/account/email-suffix" },
             { text: "常见问题", link: "/account/qa" },
+            { text: "开发文档", link: "/account/open" },
             { text: "隐私政策", link: "/account/privacy" },
             { text: "服务条款", link: "/account/tos" },
           ],
